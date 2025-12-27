@@ -1,0 +1,126 @@
+:root {
+background: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar_place header {
+    background-color:grey;
+    font-size: 32px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(10px);
+}
+.navbar_place ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding: 8px;
+}
+
+.navbar_place ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+.navbar_place ul li img {
+    width: 42px;
+    height: 42px;
+    margin-top: 2px;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    height: 512px;
+    margin-top: 64px;
+}
+.heading-one {
+    text-align: center;
+    color: white;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-div {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-place ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 128px;
+}
+.footer-place ul img {
+    height: 64px;
+}
+.footer-place p {
+    color: white;
+    text-align: center;
+    margin-top: 4px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 8px;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    height: 1024px;
+}
+.text-heading-one {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-heading-one p {
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about {
+    color: white;
+    text-align: center;
+    margin-top: 64px;
+    background-color: grey;
+    padding: 16px;
+    font-weight: bolder;
+}
+html {
+    scroll-behavior: smooth;
+}
+@media (max-width:600px) {
+  .footer-place ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+  }
+  .section {
+    width:100%;
+  }
+  .section2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 512px;
+    margin-right: 32px;
+  }
+  .about {
+    width: 100%;
+  }
+}
+@media (min-width:412px) and (max-width:915px) {
+    .section {
+        display: flex;
+        justify-content: center;
+    }
+}
